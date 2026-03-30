@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "For premium page transitions, modal animations, and interactive hover states"
+  "recharts": "For rendering admin analytics and performance score charts"
+  "date-fns": "For formatting match schedules and auction times"
+  "clsx": "For conditional tailwind class merging"
+  "tailwind-merge": "For bulletproof tailwind class composition in UI components"
+  "lucide-react": "For beautiful consistent iconography across the platform"
+
+images:
+  - path: "artifacts/league-platform/public/images/hero-bg.png"
+    description: "Dark, dramatic sports stadium background with vibrant neon teal and violet spotlight volumetric lighting"
+    aspect_ratio: "16:9"
+  - path: "artifacts/league-platform/public/images/auth-bg.png"
+    description: "Abstract geometric dark athletic texture with subtle glowing electric green accents, modern sports brand style"
+    aspect_ratio: "16:9"
+
+notes:
+  - "Authentication JWT token is stored in localStorage and passed via Authorization header using a global fetch interceptor."
+  - "The API auto-generated hooks from @workspace/api-client-react are imported directly as requested."
+  - "React Query v5 is used for state management and cache invalidation."
