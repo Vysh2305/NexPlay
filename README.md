@@ -61,7 +61,7 @@ NexPlay/
 * Admin Controls
 
 ## Architecture 
-
+![Architecture](architecture/NexPlay system architecture diagram.png)
 
 ## How It Works
 
