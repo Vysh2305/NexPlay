@@ -27,7 +27,9 @@ NexPlay/
 ├── api-server/        → Backend (Node.js + TypeScript)
 ├── api-client-react/  → Frontend API client
 ├── api-zod/           → Shared API schemas 
-├── db/                → Database configuration 
+├── db/                → Database configuration
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cb562829-fc50-4521-a124-691b4af9683c" />
+
 ```
 
 ## Tech Stack
