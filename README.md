@@ -60,9 +60,6 @@ NexPlay/
 * Notifications
 * Admin Controls
 
-## Architecture 
-![Architecture](architecture/NexPlay system architecture diagram.png)
-
 ## How It Works
 
 1. Users authenticate into the system
