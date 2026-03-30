@@ -1,0 +1,93 @@
+
+> @workspace/api-server@0.0.0 dev /home/runner/workspace/artifacts/api-server
+> export NODE_ENV=development && pnpm run build && pnpm run start
+
+
+> @workspace/api-server@0.0.0 build /home/runner/workspace/artifacts/api-server
+> node ./build.mjs
+
+
+  [37mdist/[0m[1mindex.mjs[0m                       [33m2.6mb ⚠️[0m
+  [37mdist/[0m[1mpino-worker.mjs[0m               [36m153.4kb[0m
+  [37mdist/[0m[1mpino-file.mjs[0m                 [36m142.1kb[0m
+  [37mdist/[0m[1mpino-pretty.mjs[0m               [36m114.6kb[0m
+  [37mdist/[0m[1mthread-stream-worker.mjs[0m        [36m7.3kb[0m
+  [37mdist/[0m[1mindex.mjs.map[0m                   [36m5.6mb[0m
+  [37mdist/[0m[1mpino-worker.mjs.map[0m           [36m256.9kb[0m
+  [37mdist/[0m[1mpino-file.mjs.map[0m             [36m229.0kb[0m
+  [37mdist/[0m[1mpino-pretty.mjs.map[0m           [36m203.9kb[0m
+  [37mdist/[0m[1mthread-stream-worker.mjs.map[0m   [36m12.0kb[0m
+
+⚡ [32mDone in 270ms[0m
+
+> @workspace/api-server@0.0.0 start /home/runner/workspace/artifacts/api-server
+> node --enable-source-maps ./dist/index.mjs
+
+[12:02:06.399] [32mINFO[39m (7805): [36mServer listening[39m
+    [35mport[39m: 8080
+Chat error: _DrizzleQueryError: Failed query: select "id", "game_id", "home_team_id", "away_team_id", "home_score", "away_score", "status", "start_time", "end_time", "venue", "created_at" from "matches" order by  desc limit $1
+params: 10
+    at NodePgPreparedQuery.queryWithCache (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/pg-core/session.ts:73:11)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async <anonymous> (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/node-postgres/session.ts:154:19)
+    at async <anonymous> [90m(/home/runner/workspace/artifacts/api-server/[39msrc/routes/openai/index.ts:88:27[90m)[39m {
+  query: [32m'select "id", "game_id", "home_team_id", "away_team_id", "home_score", "away_score", "status", "start_time", "end_time", "venue", "created_at" from "matches" order by  desc limit $1'[39m,
+  params: [ [33m10[39m ],
+  cause: error: syntax error at or near "desc"
+      at <anonymous> (/home/runner/workspace/node_modules/[4m.pnpm[24m/pg-pool@3.13.0_pg@8.20.0/node_modules/[4mpg-pool[24m/index.js:45:11)
+  [90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+      at async <anonymous> (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/node-postgres/session.ts:161:13)
+      at async NodePgPreparedQuery.queryWithCache (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/pg-core/session.ts:71:12)
+      at async <anonymous> (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/node-postgres/session.ts:154:19)
+      at async <anonymous> [90m(/home/runner/workspace/artifacts/api-server/[39msrc/routes/openai/index.ts:88:27[90m)[39m {
+    length: [33m94[39m,
+    severity: [32m'ERROR'[39m,
+    code: [32m'42601'[39m,
+    detail: [90mundefined[39m,
+    hint: [90mundefined[39m,
+    position: [32m'168'[39m,
+    internalPosition: [90mundefined[39m,
+    internalQuery: [90mundefined[39m,
+    where: [90mundefined[39m,
+    schema: [90mundefined[39m,
+    table: [90mundefined[39m,
+    column: [90mundefined[39m,
+    dataType: [90mundefined[39m,
+    constraint: [90mundefined[39m,
+    file: [32m'scan.l'[39m,
+    line: [32m'1248'[39m,
+    routine: [32m'scanner_yyerror'[39m
+  }
+}
+[12:02:20.165] [32mINFO[39m (7805): [36mrequest completed[39m
+    [35mreq[39m: {
+      "id": 1,
+      "method": "POST",
+      "url": "/api/auth/login"
+    }
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 80
+[12:02:20.245] [32mINFO[39m (7805): [36mrequest completed[39m
+    [35mreq[39m: {
+      "id": 2,
+      "method": "POST",
+      "url": "/api/chat/conversations"
+    }
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 37
+[12:02:20.374] [32mINFO[39m (7805): [36mrequest completed[39m
+    [35mreq[39m: {
+      "id": 3,
+      "method": "POST",
+      "url": "/api/chat/conversations/1/messages"
+    }
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 71
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31m@workspace/api-server@0.0.0 dev: `export NODE_ENV=development && pnpm run build && pnpm run start`[39m
+[31mCommand failed with signal "SIGTERM"[39m

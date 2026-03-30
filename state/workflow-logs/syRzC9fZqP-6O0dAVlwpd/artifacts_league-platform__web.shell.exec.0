@@ -1,0 +1,1758 @@
+
+> @workspace/league-platform@0.0.0 dev /home/runner/workspace/artifacts/league-platform
+> vite --config vite.config.ts --host 0.0.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m284[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m22542[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.72.226:[1m22542[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:31:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminFranchises.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:31:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminFranchises.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:31:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminFranchises.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:31:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminFranchises.tsx, /src/index.css[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:35:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:35:12 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:4951:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:4951:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:35:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:35:53 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5094:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5094:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:36:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Leaderboard.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:36:35 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5181:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5181:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:37:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Matches.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:37:16 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5271:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5271:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:38:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuctionRoom.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:38:20 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5413:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5413:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:39:16 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:39:17 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5605:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5605:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+[2m11:39:59 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5605:22: Missed semicolon
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5605:21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:40:00 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5605:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5605:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:40:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DashboardAdmin.tsx, /src/index.css[22m
+[2m11:40:05 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5736:22: Missed semicolon
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5736:21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:40:06 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5736:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5736:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:41:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseDashboard.tsx, /src/index.css[22m
+[2m11:41:12 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5767:22: Missed semicolon
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5767:21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:41:13 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5767:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5767:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:42:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/PlayerDashboard.tsx, /src/index.css[22m
+[2m11:42:13 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5793:22: Missed semicolon
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5793:21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:42:14 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] /home/runner/workspace/artifacts/league-platform/src/index.css:5793:22: Missed semicolon[39m
+  Plugin: [35mvite:css[39m
+  File: [36m/home/runner/workspace/artifacts/league-platform/src/index.css[39m:5793:21
+      at Input.error (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/home/runner/workspace/node_modules/.pnpm/postcss@8.5.8/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30145:68)
+      at async compilePostCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30129:6)
+      at async compileCSS (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:30059:26)
+      at async TransformPluginContext.handler (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:29592:54)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:43:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m11:55:00 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/artifacts/league-platform/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:00:03 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:00:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:08:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/pages/Landing.tsx, /src/pages/FranchiseTeam.tsx, /src/pages/FranchiseDashboard.tsx, /src/pages/Register.tsx, /src/components/Layout.tsx, /src/pages/Login.tsx, /src/pages/AuctionRoom.tsx, /src/pages/FranchiseRecommendations.tsx, /src/pages/PlayerProfile.tsx, /src/pages/PlayerDashboard.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:36:02 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:36:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:36:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:36:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:36:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Login.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:36:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:36:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ChatWidget.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:36:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ChatWidget.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:38:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Register.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:38:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:43:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseTeam.tsx, /src/pages/FranchiseDashboard.tsx, /src/pages/AdminPlayers.tsx, /src/App.tsx, /src/pages/Landing.tsx, /src/pages/Register.tsx, /src/components/Layout.tsx, /src/pages/Login.tsx, /src/pages/AuctionRoom.tsx, /src/pages/FranchiseRecommendations.tsx, /src/pages/PlayerProfile.tsx, /src/pages/PlayerDashboard.tsx, /src/pages/Matches.tsx, /src/pages/AdminFranchises.tsx, /src/pages/AdminAuctions.tsx, /src/pages/DashboardAdmin.tsx, /src/pages/AdminMatches.tsx, /src/pages/Games.tsx, /src/pages/Leaderboard.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:44:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseTeam.tsx, /src/pages/FranchiseDashboard.tsx, /src/pages/AdminPlayers.tsx, /src/App.tsx, /src/pages/Landing.tsx, /src/pages/Register.tsx, /src/components/Layout.tsx, /src/pages/Login.tsx, /src/pages/AuctionRoom.tsx, /src/pages/FranchiseRecommendations.tsx, /src/pages/PlayerProfile.tsx, /src/pages/PlayerDashboard.tsx, /src/pages/Matches.tsx, /src/pages/AdminFranchises.tsx, /src/pages/AdminAuctions.tsx, /src/pages/DashboardAdmin.tsx, /src/pages/AdminMatches.tsx, /src/pages/Games.tsx, /src/pages/Leaderboard.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:44:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:52:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/components/ui/tooltip.tsx, /src/components/Layout.tsx, /src/components/ui/button.tsx, /src/components/ui/card.tsx, /src/components/ui/badge.tsx, /src/components/ui/input.tsx, /src/components/ui/dialog.tsx, /src/components/ui/toast.tsx, /src/pages/AuctionRoom.tsx, /src/pages/FranchiseDashboard.tsx, /src/pages/PlayerDashboard.tsx, /src/components/ChatWidget.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:06 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuctionRoom.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuctionRoom.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuctionRoom.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuctionRoom.tsx, /src/index.css[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuctionRoom.tsx, /src/index.css[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuctionRoom.tsx, /src/index.css[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:30 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseRecommendations.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseRecommendations.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseTeam.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseRecommendations.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:56 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Games.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminAuctions.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:54:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminFranchises.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:55:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseDashboard.tsx, /src/index.css[22m
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1774878903112,"name":"Error","message":"DollarSign is not defined","stack":"    at FranchiseDashboard /home/runner/workspace/artifacts/league-platform/src/pages/FranchiseDashboard.tsx:97:109\n\n\n\n\n\n\n\n\n","loc":{"line":97,"column":109,"file":"/home/runner/workspace/artifacts/league-platform/src/pages/FranchiseDashboard.tsx"},"frame":"95 |        {/* Stat Cards */}\n96 |        <div className=\"grid grid-cols-2 lg:grid-cols-4 gap-4\">\n97 |          <StatCard label=\"Remaining Budget\" value={`$${myFranchise.remainingBudget.toLocaleString()}`} icon={DollarSign} color=\"text-primary\" iconBg=\"bg-primary/15 border-primary/20\" index={0} />\n   |                                                                                                              ^\n98 |          <StatCard label={`Players (${myFranchise.playerCount}/${myFranchise.maxPlayers})`} value={`${myFranchise.playerCount} / ${myFranchise.maxPlayers}`} icon={Users} color=\"text-secondary\" iconBg=\"bg-secondary/15 border-secondary/20\" index={1} />\n99 |          <StatCard label=\"Wins\" value={myFranchise.wins} icon={Trophy} color=\"text-emerald-400\" iconBg=\"bg-emerald-400/15 border-emerald-400/20\" index={2} />"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:55:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Games.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:55:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminAuctions.tsx, /src/index.css[22m
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1774878911545,"name":"Error","message":"DollarSign is not defined","stack":"    at FranchiseDashboard /home/runner/workspace/artifacts/league-platform/src/pages/FranchiseDashboard.tsx:97:109\n\n\n\n\n\n\n\n\n","loc":{"line":97,"column":109,"file":"/home/runner/workspace/artifacts/league-platform/src/pages/FranchiseDashboard.tsx"},"frame":"95 |        {/* Stat Cards */}\n96 |        <div className=\"grid grid-cols-2 lg:grid-cols-4 gap-4\">\n97 |          <StatCard label=\"Remaining Budget\" value={`$${myFranchise.remainingBudget.toLocaleString()}`} icon={DollarSign} color=\"text-primary\" iconBg=\"bg-primary/15 border-primary/20\" index={0} />\n   |                                                                                                              ^\n98 |          <StatCard label={`Players (${myFranchise.playerCount}/${myFranchise.maxPlayers})`} value={`${myFranchise.playerCount} / ${myFranchise.maxPlayers}`} icon={Users} color=\"text-secondary\" iconBg=\"bg-secondary/15 border-secondary/20\" index={1} />\n99 |          <StatCard label=\"Wins\" value={myFranchise.wins} icon={Trophy} color=\"text-emerald-400\" iconBg=\"bg-emerald-400/15 border-emerald-400/20\" index={2} />"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:55:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminFranchises.tsx, /src/index.css[22m
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1774878912105,"name":"Error","message":"DollarSign is not defined","stack":"    at FranchiseDashboard /home/runner/workspace/artifacts/league-platform/src/pages/FranchiseDashboard.tsx:97:109\n\n\n\n\n\n\n\n\n","loc":{"line":97,"column":109,"file":"/home/runner/workspace/artifacts/league-platform/src/pages/FranchiseDashboard.tsx"},"frame":"95 |        {/* Stat Cards */}\n96 |        <div className=\"grid grid-cols-2 lg:grid-cols-4 gap-4\">\n97 |          <StatCard label=\"Remaining Budget\" value={`$${myFranchise.remainingBudget.toLocaleString()}`} icon={DollarSign} color=\"text-primary\" iconBg=\"bg-primary/15 border-primary/20\" index={0} />\n   |                                                                                                              ^\n98 |          <StatCard label={`Players (${myFranchise.playerCount}/${myFranchise.maxPlayers})`} value={`${myFranchise.playerCount} / ${myFranchise.maxPlayers}`} icon={Users} color=\"text-secondary\" iconBg=\"bg-secondary/15 border-secondary/20\" index={1} />\n99 |          <StatCard label=\"Wins\" value={myFranchise.wins} icon={Trophy} color=\"text-emerald-400\" iconBg=\"bg-emerald-400/15 border-emerald-400/20\" index={2} />"}
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1774878913247,"name":"Error","message":"DollarSign is not defined","stack":"    at FranchiseDashboard /home/runner/workspace/artifacts/league-platform/src/pages/FranchiseDashboard.tsx:97:109\n\n\n\n\n\n\n\n\n","loc":{"line":97,"column":109,"file":"/home/runner/workspace/artifacts/league-platform/src/pages/FranchiseDashboard.tsx"},"frame":"95 |        {/* Stat Cards */}\n96 |        <div className=\"grid grid-cols-2 lg:grid-cols-4 gap-4\">\n97 |          <StatCard label=\"Remaining Budget\" value={`$${myFranchise.remainingBudget.toLocaleString()}`} icon={DollarSign} color=\"text-primary\" iconBg=\"bg-primary/15 border-primary/20\" index={0} />\n   |                                                                                                              ^\n98 |          <StatCard label={`Players (${myFranchise.playerCount}/${myFranchise.maxPlayers})`} value={`${myFranchise.playerCount} / ${myFranchise.maxPlayers}`} icon={Users} color=\"text-secondary\" iconBg=\"bg-secondary/15 border-secondary/20\" index={1} />\n99 |          <StatCard label=\"Wins\" value={myFranchise.wins} icon={Trophy} color=\"text-emerald-400\" iconBg=\"bg-emerald-400/15 border-emerald-400/20\" index={2} />"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:55:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseDashboard.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:55:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/FranchiseDashboard.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:55:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuctionRoom.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:56:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:56:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:57:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.tsx, /src/index.css[22m [33m(x3)[39m
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31m@workspace/league-platform@0.0.0 dev: `vite --config vite.config.ts --host 0.0.0.0`[39m
+[31mCommand failed with signal "SIGTERM"[39m

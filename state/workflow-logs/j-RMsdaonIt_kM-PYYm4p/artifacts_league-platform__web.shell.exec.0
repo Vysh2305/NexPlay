@@ -1,0 +1,105 @@
+
+> @workspace/league-platform@0.0.0 dev /home/runner/workspace/artifacts/league-platform
+> vite --config vite.config.ts --host 0.0.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m2349[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m22542[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.93.194:[1m22542[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:41:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Games.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:57:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/pages/PlayerDashboard.tsx, /src/pages/Login.tsx, /src/pages/Landing.tsx, /src/pages/FranchiseTeam.tsx, /src/pages/AuctionRoom.tsx, /src/pages/FranchiseRecommendations.tsx, /src/pages/Register.tsx, /src/pages/FranchiseDashboard.tsx, /src/components/Layout.tsx, /src/pages/PlayerProfile.tsx, /src/pages/AdminFranchises.tsx, /src/pages/AdminAuctions.tsx, /src/pages/AdminMatches.tsx, /src/pages/Matches.tsx, /src/pages/Leaderboard.tsx, /src/pages/Games.tsx, /src/pages/DashboardAdmin.tsx, /src/pages/AdminPlayers.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:57:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Register.tsx, /src/index.css[22m
