@@ -47,7 +47,7 @@ NexPlay/
 
 ### Database
 
-* SQL-based database
+* SQLite
 
 
 ## Core Modules
