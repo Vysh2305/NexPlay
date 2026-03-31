@@ -38,7 +38,6 @@ NexPlay/
 * Node.js
 * TypeScript
 * REST API architecture
-* Modular routing system
 
 ### Frontend 
 
